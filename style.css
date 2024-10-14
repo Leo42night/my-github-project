@@ -69,14 +69,33 @@ nav a:hover {
 	background-color: blue;
 }
 
+header {
+	padding: 1rem;
+}
+
 header h1 {
 	display: inline;
 	border-bottom: 3px solid magenta;
 }
 
-#but {/*
-	position: absolute;*/
+main {
+	display: flex;
 }
+
+aside {
+	padding: 1rem;
+	margin-right: .5rem;
+	background: #aabbcc;
+}
+
+aside ul {
+	padding: 1rem;
+}
+
+aside ul li {
+	margin: .3rem 0;
+}
+
 .boo {
 	opacity: 0;
 	position: absolute;

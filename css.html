@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-		<link rel="icon" href="favicon.ico" sizes="32x32" />
+    <link rel="icon" href="favicon.ico" sizes="32x32" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-		<link rel="manifest" href="site.webmanifest">
+    <link rel="manifest" href="site.webmanifest" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,11 +15,8 @@
   <body>
     <div class="container">
       <nav>
-        <img src="img/logo.png" alt="Logo Leo" /><a href="index.html">HTML</a>+<a
-          href="#"
-          class="active"
-          >CSS</a
-        >
+        <img src="img/logo.png" alt="Logo Leo" /><a href="index.html">HTML</a
+        >+<a href="#" class="active">CSS</a>
         <a href="javaScript.html" style="position: relative; left: 3px"
           >JavaScript</a
         >
@@ -35,87 +32,103 @@
         </p>
       </header>
       <main>
-        <h3>Konsep CSS yang krusial :</h3>
-        <ul>
-          <li>Property Style dan relasi antar propertinya</li>
-          <p>
-            contoh : display menjadi pembuka untuk flex dan grid. variasi
-            position membuat item inline bisa memiliki modifikasi block
-            (inline-block)
-          </p>
-          <li>Style default dari tag</li>
-          <li>Modifikasi inherit dari tag parent bisa diikuti turunanya</li>
-        </ul>
-
-        <h3>Konsep dan Elemen CSS (yang penulis pahami):</h3>
-        <ul>
-          <li>Padding, Border, Margin</li>
-          <li>text dan font styles</li>
-          <li>display dan position</li>
-          <li>List Style</li>
-          <li>Parallax</li>
-        </ul>
+        <aside>
+          <p>Daftar Isi:</p>
+          <ul>
+            <li><a href="#konsep-css-kursial">Konsep CSS yang krusial</a></li>
+            <li><a href="#konsep-css-pahami">Konsep dan Elemen CSS (yang penulis pahami)</a></li>
+            <li><a href="#hal-belajar">hal-hal CSS yang penulis masih belajar</a></li>
+            <li><a href="#poin-course">Poin-poin dalam Course</a></li>
+          </ul>
+        </aside>
+        <article>
+          <section id="konsep-css-kursial">
+            <h3>Konsep CSS yang krusial :</h3>
+            <ul>
+              <li>Property Style dan relasi antar propertinya</li>
+              <p>
+                contoh : display menjadi pembuka untuk flex dan grid. variasi
+                position membuat item inline bisa memiliki modifikasi block
+                (inline-block)
+              </p>
+              <li>Style default dari tag</li>
+              <li>Modifikasi inherit dari tag parent bisa diikuti turunanya</li>
+            </ul>
+          </section>
+          <section id="konsep-css-pahami">
+            <h3>Konsep dan Elemen CSS (yang penulis pahami):</h3>
+            <ul>
+              <li>Padding, Border, Margin</li>
+              <li>text dan font styles</li>
+              <li>display dan position</li>
+              <li>List Style</li>
+              <li>Parallax</li>
+            </ul>
+          </section>
+          <section id="hal-belajar">
+            <h3>hal-hal CSS yang penulis masih belajar konsepnya :</h3>
+            <ol>
+              <li><h4>Grid dan Flex container items</h4></li>
+              <p>
+                dibutuhkan untuk web yang responsive. untuk membagi kolom dan
+                baris masing-masing item dan sifat-sifat atributnya. justify
+                merujuk main axis
+              </p>
+              <li><h4>Global Values</h4></li>
+              <p></p>
+              <li><h4>Media Responsive width</h4></li>
+              <p></p>
+              <li><h4>Absolute, Relative, Fixed</h4></li>
+              <p></p>
+              <li><h4>::before dan ::after</h4></li>
+              <li><h4>px ex vh fr rem ch mm % auto</h4></li>
+              <p>selain px dan mm. sifat yang lainnnya relatif terhadap</p>
+            </ol>
+          </section>
+          <section id="poin-course">
+            <h3>Poin-poin dalam Course Introducing to CSS (Sololearn) :</h3>
+            <ul>
+              <li>
+                Getting Started {What is CSS, CSS Selector, Class & ID, Text
+                Color & Size, Styling Text, Font Style}
+              </li>
+              <li>
+                Styling Element {The Box Model, Box Size, Borders, Backgrounds,
+                Styling Lists, Links, Styling Tables, Styling Forms, CSS Layout,
+                Positioning}
+              </li>
+              <li>
+                Transition & Transforms {Transforms, Transitions, Keyframes &
+                Animation, Animation Properties}
+              </li>
+            </ul>
+          </section>
+        </article>
       </main>
-      <div class="tau">
-        <h3>hal-hal CSS yang penulis masih belajar konsepnya :</h3>
-        <ol>
-          <li><h4>Grid dan Flex container items</h4></li>
+
+      <footer style="display: flex; justify-content: space-around">
+        <div>
+          <h2>Project Under Construction 👨‍🔧🏗️</h2>
+          <p>Dibuat menggunakan CSS murni, hanya model basic.</p>
+        </div>
+        <div>
           <p>
-            dibutuhkan untuk web yang responsive. untuk membagi kolom dan baris
-            masing-masing item dan sifat-sifat atributnya. justify merujuk main
-            axis
+            Ditulis oleh&nbsp;
+            <a
+              href="https://www.linkedin.com/in/leoptobing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Leo Prangs T.</a
+            >
+            <a
+              href="https://github.com/Leo42night/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="img/github.jpg" alt="gihtub icon"
+            /></a>
           </p>
-          <li><h4>Global Values</h4></li>
-          <p></p>
-          <li><h4>Media Responsive width</h4></li>
-          <p></p>
-          <li><h4>Absolute, Relative, Fixed</h4></li>
-          <p></p>
-          <li><h4>::before dan ::after</h4></li>
-          <li><h4>px ex vh fr rem ch mm % auto</h4></li>
-          <p>selain px dan mm. sifat yang lainnnya relatif terhadap</p>
-        </ol>
-      </div>
-
-      <h3>Poin-poin dalam Course Introducing to CSS (Sololearn) :</h3>
-      <ul>
-        <li>
-          Getting Started {What is CSS, CSS Selector, Class & ID, Text Color &
-          Size, Styling Text, Font Style}
-        </li>
-        <li>
-          Styling Element {The Box Model, Box Size, Borders, Backgrounds,
-          Styling Lists, Links, Styling Tables, Styling Forms, CSS Layout,
-          Positioning}
-        </li>
-        <li>
-          Transition & Transforms {Transforms, Transitions, Keyframes &
-          Animation, Animation Properties}
-        </li>
-      </ul>
-
-      <footer style="display: flex; justify-content: space-around;">
-				<div>
-					<h2>Project Under Construction 👨‍🔧🏗️</h2>
-					<p>Dibuat menggunakan CSS murni, hanya model basic.</p>
-				</div>
-				<div>
-					<p>Ditulis oleh&nbsp;
-						<a
-							href="https://www.linkedin.com/in/leoptobing"
-							target="_blank"
-							rel="noopener noreferrer"
-							>Leo Prangs T.</a
-						>
-						<a
-							href="https://github.com/Leo42night/"
-							target="_blank"
-							rel="noopener noreferrer"
-							><img src="img/github.jpg" alt="gihtub icon"
-						/></a>
-					</p>
-					<p>&copy; 23 Juli 2023</p>
-				</div>
+          <p>&copy; 23 Juli 2023</p>
+        </div>
       </footer>
     </div>
 
